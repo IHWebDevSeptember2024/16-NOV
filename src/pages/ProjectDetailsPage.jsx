@@ -14,10 +14,10 @@ function ProjectDetailsPage(props) {
   console.log(projectToDisplay);
   if (projectToDisplay) {
     return (
-      <>
+      <div className="page">
         <h2>{projectToDisplay.title}</h2>
         <p>{projectToDisplay.description}</p>
-      </>
+      </div>
     );
   } else {
     return <Navigate to="/error" />;
