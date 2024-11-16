@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import projectsJson from "./data/projects.json";
 import ProjectDetailsPage from "./pages/ProjectDetailsPage";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   const today = new Date();
@@ -18,20 +19,20 @@ function App() {
       <Navbar />
       <main className="main-container">
         <aside>Esto es la sidebar</aside>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          {/* <Route path="/home" element={<h1>ESTO ES HOME</h1>} /> */}
-          <Route
-            path="/projects"
-            element={<ProjectsPage projects={projects} />}
-          />
-          <Route
-            path="/projects/:projectId"
-            element={<ProjectDetailsPage projects={projects} />}
-          />
-          <Route path="/about" element={<h1>ESTO ES ABOUT</h1>} />
-          <Route path="*" element={<h1>404 NOT FOUND</h1>} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            {/* <Route path="/home" element={<h1>ESTO ES HOME</h1>} /> */}
+            <Route
+              path="/projects"
+              element={<ProjectsPage projects={projects} />}
+            />
+            <Route
+              path="/projects/:projectId"
+              element={<ProjectDetailsPage projects={projects} />}
+            />
+            <Route path="/about" element={<h1>ESTO ES ABOUT</h1>} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
       </main>
       <footer>©️ {today.getFullYear()}</footer>
     </>
