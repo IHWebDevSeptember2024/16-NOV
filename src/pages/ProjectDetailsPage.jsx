@@ -2,8 +2,6 @@ import { useParams } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 
 function ProjectDetailsPage(props) {
-  const isLoggedIn = true;
-
   const projects = props.projects;
   const params = useParams();
 
@@ -14,7 +12,7 @@ function ProjectDetailsPage(props) {
   );
 
   console.log(projectToDisplay);
-  if (isLoggedIn) {
+  if (projectToDisplay) {
     return (
       <>
         <h2>{projectToDisplay.title}</h2>
