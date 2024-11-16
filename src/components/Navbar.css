@@ -1,0 +1,20 @@
+nav {
+  background-color: fuchsia;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+
+  a {
+    color: white;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.active {
+  text-decoration: underline;
+}

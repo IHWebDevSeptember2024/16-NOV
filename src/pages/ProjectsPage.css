@@ -1,0 +1,36 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  height: 100%;
+  align-items: center;
+}
+
+.projects-page-container{
+  max-width: 80%;
+}
+
+.project-card {
+  list-style: none;
+  width: 10rem;
+  background-color: aliceblue;
+  height: 5rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  h2 {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.project-card:hover {
+  background-color: #c7a6a6;
+}

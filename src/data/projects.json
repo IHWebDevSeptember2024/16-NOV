@@ -1,0 +1,122 @@
+[
+  {
+    "id": "507f1f77bcf86cd799439011",
+    "title": "Personal Portfolio Website",
+    "description": "Create a personal portfolio website to showcase your skills, projects, and experience using HTML, CSS, and JavaScript.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439012",
+    "title": "To-Do List App",
+    "description": "Build a to-do list application with the ability to add, edit, and delete tasks using React.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd799439013",
+    "title": "E-commerce Website",
+    "description": "Develop a fully functional e-commerce website with product listings, a shopping cart, and a payment gateway integration using Next.js.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439014",
+    "title": "Weather App",
+    "description": "Create a weather app that fetches real-time weather data from an API and displays it with a user-friendly interface.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd799439015",
+    "title": "Blog Platform",
+    "description": "Develop a blog platform where users can post articles, comment, and like using Node.js and MongoDB.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439016",
+    "title": "Chat Application",
+    "description": "Build a real-time chat application using WebSocket and Express.js.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd799439017",
+    "title": "Recipe Finder",
+    "description": "Create an application where users can search for recipes based on ingredients using an external API.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439018",
+    "title": "Budget Tracker",
+    "description": "Build a budget tracking app where users can input income and expenses and see a summary of their financial status.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439019",
+    "title": "Interactive Quiz App",
+    "description": "Develop an interactive quiz app with multiple-choice questions and a scoring system using React.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd79943901a",
+    "title": "Landing Page",
+    "description": "Design a visually appealing landing page for a product or service using modern CSS frameworks.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd79943901b",
+    "title": "URL Shortener",
+    "description": "Build a URL shortener app that takes a long URL and returns a shortened version using Python and Flask.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd79943901c",
+    "title": "Expense Tracker API",
+    "description": "Create a RESTful API for an expense tracker app with endpoints for managing transactions using Django.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd79943901d",
+    "title": "Real-Time Polling App",
+    "description": "Develop a real-time polling app where users can vote and see live results using Firebase.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd79943901e",
+    "title": "Photo Gallery",
+    "description": "Create a photo gallery app that displays images with filtering options using React and Redux.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd79943901f",
+    "title": "Markdown Editor",
+    "description": "Build a markdown editor where users can write and preview markdown in real-time using Vue.js.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd799439020",
+    "title": "Portfolio CMS",
+    "description": "Develop a content management system for managing portfolio projects and blog posts using Strapi.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439021",
+    "title": "Stock Price Tracker",
+    "description": "Create an app that fetches and displays stock prices in real-time using a financial API.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439022",
+    "title": "Authentication System",
+    "description": "Build an authentication system with login, signup, and password reset functionality using Firebase Authentication.",
+    "done": true
+  },
+  {
+    "id": "507f1f77bcf86cd799439023",
+    "title": "Task Management App",
+    "description": "Develop a task management app with user roles and permissions using Angular and Firebase.",
+    "done": false
+  },
+  {
+    "id": "507f1f77bcf86cd799439024",
+    "title": "Multi-Language Blog",
+    "description": "Create a multi-language blog with internationalization support using Gatsby.js and i18next.",
+    "done": true
+  }
+]
